@@ -4,7 +4,7 @@
 // services/api.js
 const API_BASE_URL = process.env.REACT_APP_API_URL || 
   (process.env.NODE_ENV === 'production' 
-    ? 'https://blog-app-7u5b.onrender.com'
+    ? 'https://blog-app-7u5b.onrender.com/api'
     : 'http://localhost:4000/api');
 
 // Get all blogs with pagination and search
